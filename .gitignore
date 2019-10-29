@@ -1,23 +1,23 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+/my-typescript-app/node_modules
+/my-typescript-app/.pnp
+/my-typescript-app/pnp.js
 
 # testing
-/coverage
+/my-typescript-app/coverage
 
 # production
-/build
+/my-typescript-app/build
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+/my-typescript-app/DS_Store
+/my-typescript-app/.env.local
+/my-typescript-app/.env.development.local
+/my-typescript-app/.env.test.local
+/my-typescript-app/.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+/my-typescript-app/npm-debug.log*
+/my-typescript-app/yarn-debug.log*
+/my-typescript-app/yarn-error.log*
